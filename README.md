@@ -2,7 +2,9 @@
 
 
 
-## Web Application Description 
+## Web Application Description  
+
+It's an app for express feelings and emotions anonumsly to other but they still can commint and give their openion to help 
 
 
 ---
@@ -27,15 +29,10 @@ $npm start
 
 
 ## Technologies
-
+The technologies used are Express with mangoose and mongoDB for Back-end 
+and for Fron-end used React 
 
 
 
 ## Developers
-
-
-Réduire
-
-
-
-Zone de message
+ - Huda Binzaqr 

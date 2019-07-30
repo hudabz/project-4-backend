@@ -22,10 +22,18 @@ const userSchema = new mongoose.Schema({
   }
 })
 
-userSchema.virtual('examples', {
-  ref: 'Example',
-  localField: '_id',
-  foreignField: 'owner'
-});
+// userSchema.virtual('posts', {
+//   ref: 'Post',
+//   localField: '_id',
+//   foreignField: 'owner'
+// });
+
+
+// userSchema.virtual('comments', {
+//   ref: 'Comment',
+//   localField: '_id',
+//   foreignField: 'owner'
+// });
+
 
 module.exports = mongoose.model('User', userSchema)
